@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Tela de Cadastro Visitante</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <form class="form-horizontal">
+         <fieldset>
+           <!-- Form Name -->
+           <legend>Cadastro de visitante</legend>
+
+            <!-- Nome-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="fullname">Nome:</label>  
+              <div class="col-md-6">
+              <input id="fullname" name="fullname" type="text" placeholder="Digite o nome" class="form-control input-md "required> 
+              </div>
+            </div>
+            <!--RG-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="RG">RG:</label>  
+              <div class="col-md-6">
+              <input id="RG" name="RG" type="text" placeholder="Documento RG" class="form-control input-md"required> 
+              </div>
+            </div>
+            <!--Endereço-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="endereco">Endereço:</label>  
+              <div class="col-md-6">
+              <input id="endereco" name="endereco" type="text" placeholder="Endereço" class="form-control input-md"required> 
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Apartamento que ira visitar">Apartamento que irá visitar:</label>  
+              <div class="col-md-6">
+              <input id="apartamento" name="apartamento" type="text" placeholder="Apartamento que vai visitar" class="form-control input-md"required> 
+              </div>
+            </div>
+
+            <!--select de modelo de visita-->
+            <label class="col-md-4 control-label" for="motivo">Motivo Visita:</label>  
+            <select>
+                <option value="Visitar conhecido">Visitar conhecido</option>
+                <option value="Trabalho">Trabalho</option>
+                <option value="Outros">Outros</option>
+            </select>
+
+
+          <br><br>
+
+            <!-- Button (Double) -->
+            <div class="form-group" >
+              <label class="col-md-4 control-label" for="Cadastrar"></label>
+              <div class="col-md-8">
+                <button id="Cadastrar" name="Cadastrar" class="btn btn-success">Cadastrar</button>
+                <button id="Cancelar" name="Cancelar" class="btn btn-danger">Cancelar</button>
+              </div>
+            </div>
+
+        </fieldset>
+        </form>
+
+          </div>
+        </div>
+  </body>
+
+</html>
