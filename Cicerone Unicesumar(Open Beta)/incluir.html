@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="_css/_cadastro.css" rel="stylesheet">
+    <title> Cicerone </title>
+</head>
+
+<body>
+ 
+  <nav id="menu">
+	<ul>
+		<li><a href="incluir.html">Limpar Campos</a></li>       
+		<li><a href="Index.html">Voltar</a></li>
+	</ul>
+  </nav>
+  
+   <div id="background_campo">
+    <div id="campo">
+     <form id="formulario" name="formulario" method="post" action="enviar.php">
+        <input type="text"          name="nome"     id="nome"      placeholder="Nome"     maxlength="50"required><br><br>
+        <input type="number_format" name="rg"       id="rg"        placeholder="RG"       maxlength="9" required><br><br>
+        <input type="number_format" name="cpf"      id="cpf"       placeholder="CPF"      maxlength="11"required><br><br>
+        <input type="text"          name="endereco" id="endereco"  placeholder="Endereço" maxlength="70"required><br><br>
+        <input type="email"         name="email"    id="email"     placeholder="E-mail"   maxlength="40"required><br><br>
+        <input type="number_format" name="telefone" id="telefone"  placeholder="Telefone" maxlength="13"required><br><br>
+        
+        <div id="radio">
+           
+            
+            
+            Administrador<input type="radio" name="nivel" value="Administrador" >
+            <br><br>    
+            Visitante<input type="radio" name="nivel" value="Visitante">
+            <br><br>
+        
+            Ativo<input type="radio" name="estatus" value="Ativado" >
+            <br><br>    
+            Desativado<input type="radio" name="estatus" value="Desativado">
+            <br><br>   
+            
+            <div id="salvar">
+                <input type="submit" name="Salvar" id="salvar"  value="Enviar"><br><br>
+            </div>
+            
+        </div>
+        
+        <br>
+        
+        
+        
+     </form>
+    </div>
+   </div>
+    
+</body>
+</html>

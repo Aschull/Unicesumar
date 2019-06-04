@@ -1,0 +1,11 @@
+Levantamento de requisitos  09-03-17
+
+Nosso sistema visa o controle de entrada e saida de sua empresa, desenvolvendo um aplicativo web baseado em php com integração com banco de dados MySql,com front end em html. Nosso sistema trará na página inicial campos para preenchimento de login e senha que serão cadastrados para portaria e administrativo, cada um com suas permissões. Os cadastros serão divididos em generos, sendo eles, funcionário padrão, funcionario terceirizado, visitantes e pesornas non gratas.
+
+Com o perfil da portaria será controlado o acesso das catracas dos funcionários e cadastro de visitantes.
+
+Já no perfil administrativo serão efetuados os cadastros dos funcionários e terceirizados, e visualização de relátorios de entrada e saída.
+
+
+
+
